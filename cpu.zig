@@ -1,4 +1,4 @@
- asmins = @import("asmInstructions.zig");
+const asmins = @import("asmInstructions.zig");
 const memory = @import("memory.zig");
 
 const std = @import("std");
